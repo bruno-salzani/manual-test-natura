@@ -12,5 +12,8 @@ Este projeto apresenta a validação da API para a funcionalidade de marcar/desm
 O objetivo principal do projeto era verificar se a API funcionava de acordo com os requisitos especificados e atendia às expectativas dos usuários. Para isso, foram criados quatro cenários de teste que abrangem as principais funcionalidades da API:
 Cenários de Teste
 
+### Plano de testes
+Para ver os cenarios de teste criados para este projeto, <a href="https://github.com/bruno-salzani/qa-api-favoritar-conteudo/raw/main/Plano%20de%20testes.docx" target="_blank">clique aqui</a>
+
 ### Resultados:
 Todos os cenários de teste foram executados com sucesso, confirmando que a API funciona de acordo com os requisitos especificados. A validação identificou alguns pontos de melhoria, como a necessidade de mensagens de erro mais específicas, que foram documentados para posterior correção
