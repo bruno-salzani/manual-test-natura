@@ -3,7 +3,7 @@
 ### Demonstração
 Para acessar a demonstração do projeto <a href="https://qa-presentation.postman.co/workspace/Neolude~abb46f74-ed45-4a39-980d-a1ec903c33a2/collection/5351779-9df0b825-22c7-4123-b09a-11e5388fc07b?action=share&creator=5351779" target="_blank">Clique aqui</a>
 
-![GitHub Logo](thumb_1.jpg)
+![GitHub Logo](Thumb.png)
 
 ### Introdução:
 Este projeto apresenta a validação da API para a funcionalidade de marcar/desmarcar um curso como favorito. A validação foi realizada utilizando a ferramenta Postman, permitindo garantir a qualidade e confiabilidade da API antes de sua implementação em produção.
