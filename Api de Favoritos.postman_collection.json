@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "9df0b825-22c7-4123-b09a-11e5388fc07b",
+		"name": "Api de Favoritos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5351779",
+		"_collection_link": "https://solar-spaceship-469958.postman.co/workspace/Neolude~abb46f74-ed45-4a39-980d-a1ec903c33a2/collection/5351779-9df0b825-22c7-4123-b09a-11e5388fc07b?action=share&source=collection_link&creator=5351779"
+	},
+	"item": [
+		{
+			"name": "Course - UnmarkAsFavorite",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Response has the correct Content-Type header\", function () {",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Response body is true\", function () {",
+							"    pm.expect(pm.response.text()).to.equal(\"true\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Response time is within an acceptable range\", function () {",
+							"  pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Verify that the request was successful\", function () {",
+							"  pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"pm.test(\"Verify that the course user favorite was unmarked\", function () {",
+							"  const responseData = pm.response.json();",
+							"  ",
+							"  pm.expect(responseData).to.be.true;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CourseID\": 35048,\r\n    \"UserID\": 2040\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://isatcorp-vlec-stg.neolude.com.br/api/CourseUserFavorite/UnmarkAsFavorite",
+					"protocol": "https",
+					"host": [
+						"isatcorp-vlec-stg",
+						"neolude",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"CourseUserFavorite",
+						"UnmarkAsFavorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Course - MarkAsFavorite",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Response has the correct Content-Type header\", function () {",
+							"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.equal(\"application/json\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Response body is true\", function () {",
+							"  pm.expect(pm.response.text()).to.equal(\"true\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Verify that the request was successfully marked as favorite\", function () {",
+							"  pm.expect(pm.response.code).to.equal(200);",
+							"  pm.expect(pm.response.headers.get(\"Content-Type\")).to.equal(\"application/json\");",
+							"  pm.expect(pm.response.text()).to.equal(\"true\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Response time is within an acceptable range\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CourseID\": 35048,\r\n    \"UserID\": 2040\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://isatcorp-vlec-stg.neolude.com.br/api/CourseUserFavorite/MarkAsFavorite",
+					"protocol": "https",
+					"host": [
+						"isatcorp-vlec-stg",
+						"neolude",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"CourseUserFavorite",
+						"MarkAsFavorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Track - MarkAsFavorite ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"TrackID\": 9595,\r\n    \"UserID\": 2040\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://isatcorp-vlec-stg.neolude.com.br/api/TrackUserFavorite/MarkAsFavorite",
+					"protocol": "https",
+					"host": [
+						"isatcorp-vlec-stg",
+						"neolude",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"TrackUserFavorite",
+						"MarkAsFavorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Track - UnmarkAsFavorite",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"TrackID\": 9595,\r\n    \"UserID\": 2040\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://isatcorp-vlec-stg.neolude.com.br/api/TrackUserFavorite/MarkAsFavorite",
+					"protocol": "https",
+					"host": [
+						"isatcorp-vlec-stg",
+						"neolude",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"TrackUserFavorite",
+						"MarkAsFavorite"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
