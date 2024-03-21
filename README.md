@@ -1,4 +1,4 @@
-## Validação de API para Marcar/Desmarcar Conteudo como favorito
+## Validação de API para Marcar/Desmarcar Conteudo como favorito (Cliente Natura Brasil)
 
 ### Introdução
 Este projeto apresenta a validação da API para a funcionalidade de marcar/desmarcar um curso ou trilha como favorito no cliente [Natura](https://escolanaturaeavon.neolude.com.br/). A validação foi realizada utilizando a ferramenta Postman, permitindo garantir a qualidade e confiabilidade da API antes de sua implementação em produção.
