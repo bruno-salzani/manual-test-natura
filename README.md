@@ -1,7 +1,5 @@
 # Teste de Software - Ficha de Produtos (Natura)
 
-## Descrição
-
 Este projeto tem como objetivo validar as funcionalidades da [Ficha de Produtos Natura](https://fichadeprodutos-natura.neolude.com.br/), um site que exibe informações sobre produtos, conquistas, gamificação, selos e recompensas. A plataforma está integrada ao LMS (Learning Management System) da Natura, pois os usuários podem obter essas recompensas ao completar cursos e outras atividades educacionais. A validação foi realizada por meio de testes manuais na Web (utilizando o navegador Edge), em Mobile (iOS), além de testes de API utilizando a ferramenta Postman. O foco foi garantir que as funcionalidades atendem aos requisitos especificados e asseguram a qualidade e confiabilidade do sistema antes da implementação em produção.
 
 ## Objetivo do Projeto
