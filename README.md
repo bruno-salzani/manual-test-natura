@@ -14,6 +14,7 @@ O principal objetivo é validar as funcionalidades da Ficha de Produtos Natura, 
 - Integração com o LMS: Teste da integração entre a Ficha de Produtos Natura e o LMS Neolude, garantindo que as conquistas obtidas no LMS sejam refletidas corretamente na plataforma de gamificação.
 
 ## Documentação dos Cenários de Teste
+Durante o projeto, utilizei diferentes abordagens para documentar os cenários de teste, com o objetivo de demonstrar meu conhecimento em diversas técnicas de documentação e, ao mesmo tempo, otimizar o processo de criação e execução dos testes. Essa estratégia foi adotada para tornar a documentação mais ágil e eficaz, atendendo às necessidades do projeto de forma rápida e bem estruturada.
 
 - **[Plano de Projeto](https://www.linkedin.com/in/brunosalzani/details/projects/543431905/multiple-media-viewer/?profileId=ACoAACVMfX4BeN6Go6wsYfaPByHcjJ2AlWG4Ui4&treasuryMediaId=1712087899949)** <br>
 Este plano de projeto descreve as funcionalidades implementadas e serviu como base para a criação dos cenários de teste. A documentação inclui os testes realizados, as ferramentas utilizadas e os critérios de sucesso.
