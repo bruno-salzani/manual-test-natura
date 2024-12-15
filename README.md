@@ -1,9 +1,9 @@
-# Teste de Software - Ficha de Produtos (Natura)
+# Teste de Software - Gameficação (Natura)
 
-Este projeto tem como objetivo validar as funcionalidades da [Ficha de Produtos Natura](https://fichadeprodutos-natura.neolude.com.br/), um site que exibe informações sobre produtos, conquistas, gamificação, selos e recompensas. A plataforma está integrada ao LMS (Learning Management System) da Natura, pois os usuários podem obter essas recompensas ao completar cursos e outras atividades educacionais. A validação foi realizada por meio de testes manuais na Web (utilizando o navegador Edge), em Mobile (iOS), além de testes de API utilizando a ferramenta Postman. O foco foi garantir que as funcionalidades atendem aos requisitos especificados e asseguram a qualidade e confiabilidade do sistema antes da implementação em produção.
+Este projeto tem como objetivo validar as funcionalidades da [Ficha de Produtos Natura](https://fichadeprodutos-natura.neolude.com.br/), um site que exibe informações sobre produtos, conquistas, gamificação, selos e recompensas. A plataforma está integrada ao LMS (Learning Management System) da Natura, pois os usuários podem obter essas recompensas ao completar cursos e outras atividades educacionais. A validação foi realizada por meio de testes manuais na Web (utilizando o navegador Edge e Chrome), em Mobile (iOS e Android), além de testes de API utilizando a ferramenta Postman. O foco foi garantir que as funcionalidades atendem aos requisitos especificados e asseguram a qualidade e confiabilidade do sistema antes da implementação em produção.
 
 ## Objetivo do Projeto
-O principal objetivo é validar as funcionalidades da Ficha de Produtos Natura, garantindo que informações como produtos, conquistas, gamificação, selos e recompensas sejam exibidas corretamente. Além disso, foi necessário testar a integração do sistema com o LMS, pois as recompensas estão relacionadas ao desempenho em cursos e atividades. Os testes foram realizados em três frentes principais: testes manuais na Web, testes em dispositivos móveis (iOS) e testes de API.
+O principal objetivo é validar as funcionalidades da [Ficha de Produtos Natura](https://fichadeprodutos-natura.neolude.com.br/), garantindo que informações como produtos, conquistas, gamificação, selos e recompensas sejam exibidas corretamente. Além disso, foi necessário testar a integração do sistema com o LMS, pois as recompensas estão relacionadas ao desempenho em cursos e atividades. Os testes foram realizados em três frentes principais: testes manuais na Web, testes em dispositivos móveis (iOS e Android) e testes de API.
 
 ## Funcionalidades
 - Exibição de Produtos: Validação da exibição correta das informações dos produtos, como nome, descrição, preço e imagem.
@@ -16,7 +16,7 @@ Durante o projeto, utilizei diferentes abordagens para documentar os cenários d
 
 ## Tecnologias Utilizadas
 1. **Testes Funcionais**: Verificação das funcionalidades da Ficha de Produtos Natura e da integração com o LMS.
-2. **Teste de Dispositivos Móveis (iOS)**: Testes realizados em dispositivos móveis para validar responsividade e funcionamento geral1.
+2. **Teste de Dispositivos Móveis (iOS e Android)**: Testes realizados em dispositivos móveis para validar responsividade e funcionamento geral.
 3. **Postman**: Ferramenta para validação de APIs.
 4. **Jira**: Plataforma para gestão de tarefas e controle de defeitos.
 
