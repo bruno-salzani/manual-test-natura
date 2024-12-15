@@ -14,21 +14,6 @@ O principal objetivo é validar as funcionalidades da Ficha de Produtos Natura, 
 ## Documentação dos Cenários de Teste
 Durante o projeto, utilizei diferentes abordagens para documentar os cenários de teste, com o objetivo de demonstrar meu conhecimento em diversas técnicas de documentação e, ao mesmo tempo, otimizar o processo de criação e execução dos testes. Essa estratégia foi adotada para tornar a documentação mais ágil e eficaz, atendendo às necessidades do projeto de forma rápida e bem estruturada.
 
-- **[Plano de Projeto](https://www.linkedin.com/in/brunosalzani/details/projects/543431905/multiple-media-viewer/?profileId=ACoAACVMfX4BeN6Go6wsYfaPByHcjJ2AlWG4Ui4&treasuryMediaId=1712087899949)** <br>
-Este plano de projeto descreve as funcionalidades implementadas e serviu como base para a criação dos cenários de teste. A documentação inclui os testes realizados, as ferramentas utilizadas e os critérios de sucesso.
-
-- **[Cenarios de Testes API - Funcionalidade 1](https://github.com/bruno-salzani/teste-software-funcionalidades-natura/raw/main/Cenarios%20de%20Testes%20API%20-%20Funcionalidade%201.docx)** <br>
-Este plano apresenta a validação da **API** para a funcionalidade de marcar ou desmarcar um curso ou trilha como favorito. A validação foi realizada utilizando **Postman** para garantir a precisão da resposta da API e seu comportamento esperado.
-
-- **[Cenarios de Teste Manual - Funcionalidade 1](https://github.com/bruno-salzani/teste-software-funcionalidades-natura/raw/main/Cenarios%20de%20Teste%20-%20Funcionalidade%201.docx)** <br>
-Este plano aborda a validação manual da funcionalidade de marcar ou desmarcar um curso ou trilha como favorito na interface da aplicação, verificando se o comportamento no front-end corresponde ao esperado pelo usuário.
-
-- **[Cenarios de Teste Manual - Funcionalidade 2](https://github.com/bruno-salzani/teste-software-funcionalidades-natura/raw/main/Cenarios%20de%20Teste%20-%20Funcionalidade%202.docx)** <br>
-Neste plano, a validação foi focada na funcionalidade de **compartilhamento de conteúdo** dentro do curso nas redes sociais como **Facebook**, **Instagram**, **LinkedIn** e **WhatsApp**. A verificação garantiu que a integração com as plataformas sociais funcionasse corretamente.
-
-- **[Cenarios de Teste Manual - Funcionalidade 3](https://github.com/bruno-salzani/teste-software-funcionalidades-natura/raw/main/Cenarios%20de%20Teste%20-%20Funcionalidade%203.docx)** <br>
-A validação desta funcionalidade foi realizada para garantir que a **busca de conteúdo** na plataforma esteja funcionando corretamente, levando em consideração as **novas métricas de busca** que foram implementadas.
-
 ## Tecnologias Utilizadas
 1. **Testes Funcionais**: Verificação das funcionalidades da Ficha de Produtos Natura e da integração com o LMS.
 2. **Teste de Dispositivos Móveis (iOS)**: Testes realizados em dispositivos móveis para validar responsividade e funcionamento geral1.
