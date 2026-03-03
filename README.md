@@ -67,11 +67,6 @@ Garantir que a Ficha de Produtos Natura exiba corretamente produtos, conquistas,
 └── README.md
 ```
 
-- Coleção Postman: [Api de Favoritos.postman_collection.json](file:///c:/Users/USER/Desktop/manual-test-natura/Api%20de%20Favoritos.postman_collection.json)
-- Plano: [Plano de Projeto.pdf](file:///c:/Users/USER/Desktop/manual-test-natura/Plano%20de%20Projeto.pdf)
-
----
-
 # ▶️ Como Executar os Testes de API
 
 ## Postman (Interface)
