@@ -72,7 +72,7 @@ Garantir que a Ficha de Produtos Natura exiba corretamente produtos, conquistas,
 ## Postman (Interface)
 
 1. Abra o Postman
-2. Importe a coleção: [Api de Favoritos.postman_collection.json](file:///c:/Users/USER/Desktop/manual-test-natura/Api%20de%20Favoritos.postman_collection.json)
+2. Importe a coleção: [Api de Favoritos.postman_collection.json]
 3. Ajuste o corpo das requisições (CourseID, TrackID, UserID) conforme necessário
 4. Execute as requisições e verifique os testes embutidos (status, headers, tempo e conteúdo)
 
