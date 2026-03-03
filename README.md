@@ -1,23 +1,143 @@
-# Teste de Software - Gameficação (Natura)
+# 🧪 Qualidade de Software — Ficha de Produtos Natura
 
-Este projeto tem como objetivo validar as funcionalidades da [Ficha de Produtos Natura](https://fichadeprodutos-natura.neolude.com.br/), um site que exibe informações sobre produtos, conquistas, gamificação, selos e recompensas. A plataforma está integrada ao LMS (Learning Management System) da Natura, pois os usuários podem obter essas recompensas ao completar cursos e outras atividades educacionais. A validação foi realizada por meio de testes manuais na Web (utilizando o navegador Edge e Chrome), em Mobile (iOS e Android), além de testes de API utilizando a ferramenta Postman. O foco foi garantir que as funcionalidades atendem aos requisitos especificados e asseguram a qualidade e confiabilidade do sistema antes da implementação em produção.
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Abordagens](https://img.shields.io/badge/Abordagens-Web%20%7C%20Mobile%20%7C%20API-blue)
+![Ferramentas](https://img.shields.io/badge/Ferramentas-Postman%20%7C%20Jira-lightgrey)
 
-## Objetivo do Projeto
-O principal objetivo é validar as funcionalidades da [Ficha de Produtos Natura](https://fichadeprodutos-natura.neolude.com.br/), garantindo que informações como produtos, conquistas, gamificação, selos e recompensas sejam exibidas corretamente. Além disso, foi necessário testar a integração do sistema com o LMS, pois as recompensas estão relacionadas ao desempenho em cursos e atividades. Os testes foram realizados em três frentes principais: testes manuais na Web, testes em dispositivos móveis (iOS e Android) e testes de API.
+Este repositório documenta o esforço de testes do projeto Ficha de Produtos Natura, incluindo validação funcional na Web e em dispositivos móveis, além de verificação de APIs relacionadas a favoritos e integração com o LMS. O objetivo é assegurar a qualidade, a confiabilidade e a coerência dos dados apresentados ao usuário final.
 
-## Funcionalidades
-- Exibição de Produtos: Validação da exibição correta das informações dos produtos, como nome, descrição, preço e imagem.
-- Gamificação: Verificação das funcionalidades de gamificação, como o ganho de pontos, badges e recompensas, com base nas ações realizadas no LMS.
-- Selos e Recompensas: Validação das funcionalidades relacionadas ao recebimento de selos e recompensas, que são concedidos conforme o progresso nos cursos do LMS.
-- Integração com o LMS: Teste da integração entre a Ficha de Produtos Natura e o LMS Neolude, garantindo que as conquistas obtidas no LMS sejam refletidas corretamente na plataforma de gamificação.
+---
 
-## Documentação dos Cenários de Teste
-Durante o projeto, utilizei diferentes abordagens para documentar os cenários de teste, com o objetivo de demonstrar meu conhecimento em diversas técnicas de documentação e, ao mesmo tempo, otimizar o processo de criação e execução dos testes. Essa estratégia foi adotada para tornar a documentação mais ágil e eficaz, atendendo às necessidades do projeto de forma rápida e bem estruturada.
+# 🎯 Objetivo do Projeto
 
-## Tecnologias Utilizadas
-1. **Testes Funcionais**: Verificação das funcionalidades da Ficha de Produtos Natura e da integração com o LMS.
-2. **Teste de Dispositivos Móveis (iOS e Android)**: Testes realizados em dispositivos móveis para validar responsividade e funcionamento geral.
-3. **Postman**: Ferramenta para validação de APIs.
-4. **Jira**: Plataforma para gestão de tarefas e controle de defeitos.
+Garantir que a Ficha de Produtos Natura exiba corretamente produtos, conquistas, selos, recompensas e demais elementos de gamificação, refletindo de forma consistente as informações provenientes do LMS.
 
+## Foco Principal
+
+- Cobertura funcional dos fluxos críticos
+- Garantia de integridade dos dados entre LMS e frontend
+- Validação multiplataforma (Web, iOS e Android)
+- Verificação de estabilidade e tempos de resposta das APIs
+
+---
+
+# 🧠 Escopo e Abordagem
+
+## Web
+
+- Navegadores: Microsoft Edge e Google Chrome
+- Verificações: exibição de produtos (nome, descrição, imagem), conquistas, selos, recompensas e contadores de gamificação
+- Integração: conferência de regras de negócio associadas ao LMS
+
+## Mobile (iOS e Android)
+
+- Validação de responsividade, navegação, acessibilidade básica e comportamento dos mesmos elementos de gamificação
+- Checagem de consistência com a versão Web
+
+## API (Postman)
+
+- Foco em favoritos de cursos e trilhas
+- Validação de status codes, headers, tempos de resposta e conteúdo
+- Endpoints exercitados (ambiente de staging):
+  - CourseUserFavorite/MarkAsFavorite e UnmarkAsFavorite
+  - TrackUserFavorite/MarkAsFavorite e UnmarkAsFavorite
+
+---
+
+# 🔄 Fluxos Validados
+
+1. Consulta e exibição de produtos
+2. Exibição de conquistas, selos e recompensas
+3. Marcação e desmarcação de favoritos (cursos e trilhas) via API
+4. Sincronização entre ações no LMS e visualização na Ficha de Produtos
+
+---
+
+# 📁 Estrutura do Repositório
+
+```bash
+.
+├── Api de Favoritos.postman_collection.json
+├── Cenarios de Teste - Funcionalidade 1.docx
+├── Cenarios de Teste - Funcionalidade 2.docx
+├── Cenarios de Teste - Funcionalidade 3.docx
+├── Cenarios de Testes API - Funcionalidade 1.docx
+├── Plano de Projeto.pdf
+├── Thumb.png
+└── README.md
+```
+
+- Coleção Postman: [Api de Favoritos.postman_collection.json](file:///c:/Users/USER/Desktop/manual-test-natura/Api%20de%20Favoritos.postman_collection.json)
+- Plano: [Plano de Projeto.pdf](file:///c:/Users/USER/Desktop/manual-test-natura/Plano%20de%20Projeto.pdf)
+
+---
+
+# ▶️ Como Executar os Testes de API
+
+## Postman (Interface)
+
+1. Abra o Postman
+2. Importe a coleção: [Api de Favoritos.postman_collection.json](file:///c:/Users/USER/Desktop/manual-test-natura/Api%20de%20Favoritos.postman_collection.json)
+3. Ajuste o corpo das requisições (CourseID, TrackID, UserID) conforme necessário
+4. Execute as requisições e verifique os testes embutidos (status, headers, tempo e conteúdo)
+
+## Newman (Opcional)
+
+Se tiver o Newman instalado localmente:
+
+```bash
+newman run "Api de Favoritos.postman_collection.json"
+```
+
+Observação: ajuste URLs, IDs e autenticação conforme o ambiente de teste.
+
+---
+
+# ⚙️ Ambiente e Ferramentas
+
+- Ambiente principal de API: https://isatcorp-vlec-stg.neolude.com.br
+- Navegadores: Edge, Chrome
+- Plataformas Mobile: iOS, Android
+- Ferramentas: Postman (coleção), Jira (gestão de tarefas/defeitos)
+
+---
+
+# 🧪 Boas Práticas Adotadas
+
+- Separação entre documentação funcional e scripts de API
+- Casos de teste versionados e organizados por funcionalidade
+- Testes de API com validações de status, headers, tempo de resposta e conteúdo
+- Evidências e defeitos registrados em ferramenta de gestão (Jira)
+
+---
+
+# 📊 Gestão de Riscos
+
+## Principais Riscos Mitigados
+
+- Inconsistência entre LMS e Ficha de Produtos
+- Regressões em exibição de gamificação
+- Falhas de favoritos (cursos e trilhas)
+- Variações de comportamento entre Web e Mobile
+
+## Estratégias de Mitigação
+
+- Execução de testes focados nos fluxos críticos
+- Checagem cruzada entre plataformas
+- Validações automatizadas básicas na coleção Postman
+- Registro e acompanhamento sistemático de defeitos
+
+---
+
+# 📈 Resultados
+
+- Validação bem-sucedida de exibição de produtos e elementos de gamificação
+- Cobertura de favoritos via API com testes e asserções embutidas
+- Evidências consolidadas nos documentos de cenários e no plano de projeto
+
+---
+
+# 🤝 Conclusão
+
+Este repositório consolida os artefatos do processo de garantia de qualidade da Ficha de Produtos Natura, cobrindo Web, Mobile e API. O material serve de base para manutenção, regressão e futuras evoluções do produto.
 
