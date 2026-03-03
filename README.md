@@ -1,4 +1,4 @@
-# 🧪 Qualidade de Software — Ficha de Produtos Natura
+# 🧪 Teste de Software — Gamificação Ficha de Produtos Natura
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 ![Abordagens](https://img.shields.io/badge/Abordagens-Web%20%7C%20Mobile%20%7C%20API-blue)
